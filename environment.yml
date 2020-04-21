@@ -1,0 +1,20 @@
+name: robustness
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - jupyter
+  - python=3.7
+  - seaborn
+  - scikit-learn
+  - cudatoolkit
+  - cudnn
+  - matplotlib
+  - pip
+  - pip:
+    - foolbox==2.4
+    - randomgen
+    - pillow
+    - tensorflow-gpu==2.1.0
+    - convex_adversarial
+
