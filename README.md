@@ -1,9 +1,8 @@
 # Adversarial examples and where to find them
-Venue: **ECML 2020**
 
-Authors: **Will be added after end of reviewing period.**
+Authors: **Niklas Risse, Christina Göpfert and Jan Philip Göpfert**
 
-Institution: **Will be added after end of reviewing period.**
+Institution: **Bielefeld University**
 
 
 ## What is in this repository?
@@ -68,6 +67,6 @@ We use tensorflow-gpu 2.1 to calculate adversarial examples. To correctly set up
 We use the julia package [MIPVerify](https://github.com/vtjeng/MIPVerify.jl) with [Gurobi](https://www.gurobi.com/documentation/quickstart.html) to calculate exact minimal adversarial examples in the notebook `experiments/rob_curves_true_vs_approximative.ipynb`. To install julia, follow the instructions from: https://julialang.org/downloads/. To install gurobi, follow the instructions from  https://www.gurobi.com/documentation/quickstart.html (free academic licenses available). You need to install the following julia packages: MIPVerify, Gurobi, JuMP, Images, Printf, MAT, CSV and NPZ. More information on MIPVerify can be found here: https://vtjeng.github.io/MIPVerify.jl/latest/#Installation-1.
 
 ## Contact
-**Will be added after end of reviewing period.**
+If you have a problem or question regarding the code, please contact [Niklas Risse](https://github.com/niklasrisse).
 ## Citation
-**Will be added after end of reviewing period.**
+**Will be added after publication of preprint.**
