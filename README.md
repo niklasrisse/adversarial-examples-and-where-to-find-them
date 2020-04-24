@@ -4,6 +4,8 @@ Authors: **Niklas Risse, Christina Göpfert and Jan Philip Göpfert**
 
 Institution: **Bielefeld University**
 
+Paper: [https://arxiv.org/abs/2004.10882](https://arxiv.org/abs/2004.10882)
+
 
 ## What is in this repository?
 + The code to calculate robustness curves for a chosen model and dataset
@@ -69,4 +71,13 @@ We use the julia package [MIPVerify](https://github.com/vtjeng/MIPVerify.jl) wit
 ## Contact
 If you have a problem or question regarding the code, please contact [Niklas Risse](https://github.com/niklasrisse).
 ## Citation
-**Will be added after publication of preprint.**
+```
+@misc{risse2020adversarial,
+    title={Adversarial examples and where to find them},
+    author={Niklas Risse and Christina Göpfert and Jan Philip Göpfert},
+    year={2020},
+    eprint={2004.10882},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
+```
